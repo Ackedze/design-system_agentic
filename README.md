@@ -1,8 +1,9 @@
-# agent_design-system_ab
+# design-system_agentic
 
 Apollo agent and component contract artifacts for the AB design system.
 
-This repository intentionally contains only agent-facing component files:
+This repository contains agent-facing component files and the Apollo runtime
+contract index:
 
 - `agent-context.json`
 - `audit-mapping.json`
@@ -12,5 +13,7 @@ This repository intentionally contains only agent-facing component files:
 - `examples.json`
 - `rules.json`
 - component-level `README.md`
+- `JSONS/apollo/indexes/componentContractIndex.json`
 
-Raw Figma catalogs remain in `design-system_ab` until Apollo routes are migrated.
+Raw web Figma catalogs remain in `design-system_ab`. ABM catalogs live in
+`desing-system_abm`.
