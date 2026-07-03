@@ -3,6 +3,17 @@
   "documentType": "component-agent-context",
   "componentKey": "web-corp.table-wide-d",
   "status": "draft",
+  "applicability": {
+    "channels": [
+      "b2b"
+    ],
+    "platforms": [
+      "desktop",
+      "mobile-web"
+    ],
+    "source": "path-policy",
+    "updatedAt": "2026-07-04"
+  },
   "summary": "Table Wide [D] — desktop-семейство таблиц для wide rows, head rows, body cells, control cells, action cells, dividers и table add-ons в Web Corp Components.",
   "source": {
     "rawCatalogPath": "JSONS/web/components/web-corp/Web _ Corp Components -- Table _ Wide [D].json",

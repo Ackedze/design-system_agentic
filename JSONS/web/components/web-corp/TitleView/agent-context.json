@@ -3,6 +3,17 @@
   "documentType": "component-agent-context",
   "componentKey": "web-corp.title-view",
   "status": "draft",
+  "applicability": {
+    "channels": [
+      "b2b"
+    ],
+    "platforms": [
+      "desktop",
+      "mobile-web"
+    ],
+    "source": "path-policy",
+    "updatedAt": "2026-07-04"
+  },
   "summary": "TitleView — composite header/title wrapper для сценария header with title, status and action buttons. Компонент собирает title, status, title addons, right addons, holding selector, subtitle, title status и button group areas в готовую DS-композицию.",
   "source": {
     "rawCatalogPath": "JSONS/web/components/web-corp/Web _ Corp Components -- TitleView.json",

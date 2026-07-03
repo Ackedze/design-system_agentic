@@ -1,6 +1,17 @@
 {
   "schemaVersion": 1,
   "documentType": "component-contract-index",
+  "applicability": {
+    "channels": [
+      "universal"
+    ],
+    "platforms": [
+      "desktop",
+      "mobile-web"
+    ],
+    "source": "path-policy",
+    "updatedAt": "2026-07-04"
+  },
   "generatedAt": "2026-07-03T10:16:52.217Z",
   "baseUrl": "https://ackedze.github.io/design-system_agentic/JSONS/",
   "packages": [

@@ -3,6 +3,17 @@
   "documentType": "component-rules",
   "componentKey": "web-core.amount-input",
   "status": "draft",
+  "applicability": {
+    "channels": [
+      "universal"
+    ],
+    "platforms": [
+      "desktop",
+      "mobile-web"
+    ],
+    "source": "path-policy",
+    "updatedAt": "2026-07-04"
+  },
   "rules": [
     {
       "ruleId": "component:web-core.amount-input.variant-state-is-component-property",

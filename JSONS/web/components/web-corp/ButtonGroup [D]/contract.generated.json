@@ -3,6 +3,17 @@
   "documentType": "component-contract-generated",
   "componentKey": "web-corp.buttons-group",
   "status": "draft",
+  "applicability": {
+    "channels": [
+      "b2b"
+    ],
+    "platforms": [
+      "desktop",
+      "mobile-web"
+    ],
+    "source": "path-policy",
+    "updatedAt": "2026-07-04"
+  },
   "source": {
     "rawCatalogPath": "JSONS/web/components/web-corp/Web _ Corp Components -- ButtonGroup [D].json",
     "library": "Web _ Corp Components",

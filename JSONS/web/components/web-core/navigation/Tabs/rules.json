@@ -3,6 +3,17 @@
   "documentType": "component-rules",
   "componentKey": "web-core-navigation.tabs",
   "status": "draft",
+  "applicability": {
+    "channels": [
+      "universal"
+    ],
+    "platforms": [
+      "desktop",
+      "mobile-web"
+    ],
+    "source": "path-policy",
+    "updatedAt": "2026-07-04"
+  },
   "rules": [
     {
       "id": "component:web-core-navigation.tabs.primary-tab-standalone-spacing",

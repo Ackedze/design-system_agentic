@@ -3,6 +3,17 @@
   "documentType": "component-rules",
   "componentKey": "web-corp.buttons-group",
   "status": "draft",
+  "applicability": {
+    "channels": [
+      "b2b"
+    ],
+    "platforms": [
+      "desktop",
+      "mobile-web"
+    ],
+    "source": "path-policy",
+    "updatedAt": "2026-07-04"
+  },
   "rules": [
     {
       "id": "component:web-corp.buttons-group.component-properties",

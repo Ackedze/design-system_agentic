@@ -3,6 +3,17 @@
   "documentType": "composition-contract",
   "componentKey": "web-corp.corporate-topbar",
   "status": "generated-draft",
+  "applicability": {
+    "channels": [
+      "b2b"
+    ],
+    "platforms": [
+      "desktop",
+      "mobile-web"
+    ],
+    "source": "path-policy",
+    "updatedAt": "2026-07-04"
+  },
   "component": {
     "name": "CorporateTopbar [D]",
     "library": "Web _ Corp Components"

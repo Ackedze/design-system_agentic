@@ -3,6 +3,17 @@
   "documentType": "composition-contract",
   "componentKey": "web-core.icon-button",
   "status": "draft",
+  "applicability": {
+    "channels": [
+      "universal"
+    ],
+    "platforms": [
+      "desktop",
+      "mobile-web"
+    ],
+    "source": "path-policy",
+    "updatedAt": "2026-07-04"
+  },
   "component": {
     "name": "IconButton",
     "library": "Web _ Core"

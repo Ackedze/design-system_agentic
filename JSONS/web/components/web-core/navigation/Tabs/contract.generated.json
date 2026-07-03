@@ -3,6 +3,17 @@
   "documentType": "component-contract-generated",
   "componentKey": "web-core-navigation.tabs",
   "status": "draft",
+  "applicability": {
+    "channels": [
+      "universal"
+    ],
+    "platforms": [
+      "desktop",
+      "mobile-web"
+    ],
+    "source": "path-policy",
+    "updatedAt": "2026-07-04"
+  },
   "source": {
     "rawCatalogPath": "JSONS/web/components/web-core/navigation/Web _ Core Navigation -- Tabs.json",
     "library": "Web :: Core Navigation",

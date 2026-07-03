@@ -4,6 +4,17 @@
   "componentKey": "web-corp.tabs-view",
   "generatedAt": "2026-06-30",
   "status": "draft",
+  "applicability": {
+    "channels": [
+      "b2b"
+    ],
+    "platforms": [
+      "desktop",
+      "mobile-web"
+    ],
+    "source": "path-policy",
+    "updatedAt": "2026-07-04"
+  },
   "source": {
     "rawCatalogPath": "shared/design-system_ab/JSONS/web/components/web-corp/Web _ Corp Components -- TabsView.json",
     "rawCatalogKind": "catalog",

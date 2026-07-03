@@ -3,6 +3,17 @@
   "documentType": "component-contract-examples",
   "componentKey": "web-core.button",
   "status": "draft",
+  "applicability": {
+    "channels": [
+      "universal"
+    ],
+    "platforms": [
+      "desktop",
+      "mobile-web"
+    ],
+    "source": "path-policy",
+    "updatedAt": "2026-07-04"
+  },
   "examples": [
     {
       "exampleId": "button.variant-view-change",

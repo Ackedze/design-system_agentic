@@ -3,6 +3,17 @@
   "documentType": "component-rules",
   "componentKey": "web-corp.table-wide-d",
   "status": "draft",
+  "applicability": {
+    "channels": [
+      "b2b"
+    ],
+    "platforms": [
+      "desktop",
+      "mobile-web"
+    ],
+    "source": "path-policy",
+    "updatedAt": "2026-07-04"
+  },
   "rules": [
     {
       "ruleId": "component:web-corp.table-wide-d.component-properties-are-first-class",

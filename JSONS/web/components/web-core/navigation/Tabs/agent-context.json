@@ -3,6 +3,17 @@
   "documentType": "component-agent-context",
   "componentKey": "web-core-navigation.tabs",
   "status": "draft",
+  "applicability": {
+    "channels": [
+      "universal"
+    ],
+    "platforms": [
+      "desktop",
+      "mobile-web"
+    ],
+    "source": "path-policy",
+    "updatedAt": "2026-07-04"
+  },
   "summary": "Web Core Navigation Tabs содержит standalone-компоненты primary и secondary tabs. Он задаёт baseline values для TabsPrimary и TabPrimary, но composite components вроде TabsView могут владеть другими effective baselines через собственные composition contracts.",
   "source": {
     "rawCatalogPath": "JSONS/web/components/web-core/navigation/Web _ Core Navigation -- Tabs.json",

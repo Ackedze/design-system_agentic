@@ -3,6 +3,17 @@
   "documentType": "component-agent-context",
   "componentKey": "web-corp.table-basic-d",
   "status": "draft",
+  "applicability": {
+    "channels": [
+      "b2b"
+    ],
+    "platforms": [
+      "desktop",
+      "mobile-web"
+    ],
+    "source": "path-policy",
+    "updatedAt": "2026-07-04"
+  },
   "summary": "Table Basic [D] — desktop-семейство таблиц для basic rows, cells, group dividers, graphics, sorting и table add-ons в Web Corp Components.",
   "source": {
     "rawCatalogPath": "JSONS/web/components/web-corp/Web _ Corp Components -- Table_ Basic [D].json",

@@ -3,6 +3,17 @@
   "documentType": "component-contract-overrides",
   "componentKey": "web-corp.table-basic-d",
   "status": "draft",
+  "applicability": {
+    "channels": [
+      "b2b"
+    ],
+    "platforms": [
+      "desktop",
+      "mobile-web"
+    ],
+    "source": "path-policy",
+    "updatedAt": "2026-07-04"
+  },
   "appliesTo": {
     "generatedContract": "contract.generated.json",
     "rawCatalog": "Web _ Corp Components -- Table_ Basic [D].json"

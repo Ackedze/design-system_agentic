@@ -17,3 +17,6 @@ contract index:
 
 Raw web Figma catalogs remain in `design-system_ab`. ABM catalogs live in
 `desing-system_abm`.
+
+See `AGENTIC_FILE_TYPES.md` for file schemas, applicability metadata and usage
+rules.

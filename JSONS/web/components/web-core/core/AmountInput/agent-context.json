@@ -3,6 +3,17 @@
   "documentType": "component-agent-context",
   "componentKey": "web-core.amount-input",
   "status": "draft",
+  "applicability": {
+    "channels": [
+      "universal"
+    ],
+    "platforms": [
+      "desktop",
+      "mobile-web"
+    ],
+    "source": "path-policy",
+    "updatedAt": "2026-07-04"
+  },
   "sourceFiles": [
     "contract.generated.json",
     "contract.overrides.json",

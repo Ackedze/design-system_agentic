@@ -3,6 +3,17 @@
   "documentType": "component-contract-examples",
   "componentKey": "web-corp.background-plate",
   "status": "draft",
+  "applicability": {
+    "channels": [
+      "b2b"
+    ],
+    "platforms": [
+      "desktop",
+      "mobile-web"
+    ],
+    "source": "path-policy",
+    "updatedAt": "2026-07-04"
+  },
   "examples": [
     {
       "exampleId": "background-plate-position-change",

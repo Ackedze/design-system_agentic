@@ -3,6 +3,17 @@
   "documentType": "component-agent-context",
   "componentKey": "web-corp.background-plate",
   "status": "draft",
+  "applicability": {
+    "channels": [
+      "b2b"
+    ],
+    "platforms": [
+      "desktop",
+      "mobile-web"
+    ],
+    "source": "path-policy",
+    "updatedAt": "2026-07-04"
+  },
   "summary": "BackgroundPlate — семейство plate, slot и style-level components, которое маппит Position, Type, BackgroundColor и Skeleton variants на layer fills и slot padding.",
   "source": {
     "rawCatalogPath": "JSONS/web/components/web-corp/Web _ Corp Components -- BackgroundPlate.json",

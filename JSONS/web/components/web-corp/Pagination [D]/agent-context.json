@@ -3,6 +3,17 @@
   "documentType": "component-agent-context",
   "componentKey": "web-corp.pagination",
   "status": "generated-draft",
+  "applicability": {
+    "channels": [
+      "b2b"
+    ],
+    "platforms": [
+      "desktop",
+      "mobile-web"
+    ],
+    "source": "path-policy",
+    "updatedAt": "2026-07-04"
+  },
   "sourceFiles": [
     "catalog.raw.json",
     "contract.generated.json",

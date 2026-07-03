@@ -1,5 +1,16 @@
 {
   "schemaVersion": "apollo.ds-contracts.v1",
+  "applicability": {
+    "channels": [
+      "b2b"
+    ],
+    "platforms": [
+      "desktop",
+      "mobile-web"
+    ],
+    "source": "path-policy",
+    "updatedAt": "2026-07-04"
+  },
   "source": {
     "library": "Web :: Corp Components",
     "file": "Web :: Corp Components",

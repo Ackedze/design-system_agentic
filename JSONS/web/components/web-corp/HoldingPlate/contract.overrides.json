@@ -3,6 +3,17 @@
   "documentType": "component-contract-overrides",
   "componentKey": "web-corp.holding-plate",
   "status": "generated-draft",
+  "applicability": {
+    "channels": [
+      "b2b"
+    ],
+    "platforms": [
+      "desktop",
+      "mobile-web"
+    ],
+    "source": "path-policy",
+    "updatedAt": "2026-07-04"
+  },
   "note": "Сгенерированный placeholder overlay. При необходимости вручную добавь semantic ownership, reset model и design-rule overrides.",
   "semanticComponents": [
     {

@@ -3,6 +3,17 @@
   "documentType": "component-rules",
   "componentKey": "web-corp.data-range-picker",
   "status": "generated-draft",
+  "applicability": {
+    "channels": [
+      "b2b"
+    ],
+    "platforms": [
+      "desktop",
+      "mobile-web"
+    ],
+    "source": "path-policy",
+    "updatedAt": "2026-07-04"
+  },
   "rules": [
     {
       "ruleId": "component:web-corp.data-range-picker.component-properties-are-first-class",
