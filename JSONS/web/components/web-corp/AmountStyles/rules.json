@@ -12,7 +12,7 @@
       "mobile-web"
     ],
     "source": "path-policy",
-    "updatedAt": "2026-07-04"
+    "updatedAt": "2026-07-05"
   },
   "rules": [
     {
@@ -37,7 +37,8 @@
     {
       "ruleId": "component:web-corp.amount-styles.operation-negative-is-part-property",
       "severity": "info",
-      "source": "component-contract",
+      "source": "pattern-link",
+      "patternRuleId": "rule:components.amount.operation-negative",
       "appliesTo": "variant.Negative",
       "checkType": "deterministic",
       "matchKind": "exact_component_rule",
@@ -48,6 +49,26 @@
         ]
       },
       "ruleText": "Изменения Operation Negative являются part/component configuration для знака операции суммы."
+    },
+    {
+      "ruleId": "component:web-corp.amount-styles.parts-share-text-style",
+      "severity": "error",
+      "source": "pattern-link",
+      "patternRuleId": "rule:components.amount.same-text-style-for-parts",
+      "appliesTo": "styles.text",
+      "checkType": "deterministic",
+      "matchKind": "exact_component_rule",
+      "target": {
+        "component": "AmountStyles",
+        "layers": [
+          "Operation",
+          "Minus",
+          "Major",
+          "Minor",
+          "Currency"
+        ]
+      },
+      "ruleText": "Operation, Major, Minor и Currency внутри одного AmountStyles instance должны использовать один и тот же text style. Minus является leaf layer внутри Operation и наследует тот же style contract."
     },
     {
       "ruleId": "component:web-corp.amount-styles.manual-operation-sign-fill-is-layer-property",
@@ -92,6 +113,7 @@
       "target": {
         "component": "AmountStyles",
         "layers": [
+          "Operation",
           "Minus",
           "Major",
           "Minor",

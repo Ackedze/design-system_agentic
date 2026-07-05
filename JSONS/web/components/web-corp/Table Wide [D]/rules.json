@@ -12,7 +12,7 @@
       "mobile-web"
     ],
     "source": "path-policy",
-    "updatedAt": "2026-07-04"
+    "updatedAt": "2026-07-05"
   },
   "rules": [
     {
@@ -104,6 +104,34 @@
       "appliesTo": "component.status",
       "checkType": "manual",
       "ruleText": "Scheduled-части таблиц являются lifecycle context для агента. Не считай scheduled status дизайн-нарушением, если не найден отдельный pattern или exact design rule."
+    },
+    {
+      "ruleId": "component:web-corp.table-wide-d.background-plate-wrapper-in-content",
+      "severity": "error",
+      "source": "composition-contract",
+      "appliesTo": "screen.composition",
+      "checkType": "deterministic",
+      "matchKind": "exact_component_rule",
+      "conditions": {
+        "component": "Table Wide [D]",
+        "placement": "CorporateContent body",
+        "isStandaloneTableBlock": true
+      },
+      "requiredComposition": {
+        "wrapperComponent": "[D] BackgroundPlate",
+        "slotComponent": "[D] BackgroundPlateSlot",
+        "level": "Level 1",
+        "background": "matching page background",
+        "padding": {
+          "top": 0,
+          "right": 16,
+          "bottom": 16,
+          "left": 16
+        },
+        "tablePlacement": "inside BackgroundPlateSlot",
+        "forbiddenPlacement": "Table Wide [D] as direct child of page content stack after TitleView or TabsView"
+      },
+      "ruleText": "При размещении Table Wide [D] как самостоятельного блока в теле CorporateContent таблица должна быть вложена в [D] BackgroundPlate первого уровня через [D] BackgroundPlateSlot. Нельзя оставлять Table Wide [D] прямым ребёнком page-content стека после TitleView или TabsView. Отступы от краёв BackgroundPlateSlot до таблицы: сверху 0 px, справа 16 px, снизу 16 px, слева 16 px."
     }
   ]
 }
