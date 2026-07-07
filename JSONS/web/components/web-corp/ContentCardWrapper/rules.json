@@ -439,6 +439,107 @@
       "ruleText": "Для заголовка карточки в Desktop используется Headline-System / 18-22 xSmall. В MobileWeb используется Action / 16-24 Medium."
     },
     {
+      "ruleId": "component:web-corp.content-card-wrapper.edge-padding-immutable",
+      "severity": "error",
+      "source": "pattern-link",
+      "patternRuleId": "rule:components.content-card-wrapper.edge-padding-immutable",
+      "appliesTo": "layout.padding.*",
+      "checkType": "deterministic",
+      "matchKind": "exact_component_rule",
+      "target": {
+        "component": "web-corp.content-card-wrapper",
+        "layers": [
+          "[D] ContentCardWrapper",
+          "[M] ContentCardWrapper"
+        ]
+      },
+      "requiredPaddingByLayer": {
+        "[D] ContentCardWrapper": {
+          "top": 24,
+          "right": 24,
+          "bottom": 24,
+          "left": 24
+        },
+        "[M] ContentCardWrapper": {
+          "top": 16,
+          "right": 16,
+          "bottom": 16,
+          "left": 16
+        }
+      },
+      "disallowedCustomization": {
+        "designerControlled": false,
+        "reason": "edge padding is part of ContentCardWrapper component structure"
+      },
+      "ruleText": "Запрещено менять отступы от краёв ContentCardWrapper до контента. Для [D] ContentCardWrapper все layout.padding.* должны быть 24 px; для [M] ContentCardWrapper все layout.padding.* должны быть 16 px."
+    },
+    {
+      "ruleId": "component:web-corp.content-card-wrapper.background-plate-level-by-platform",
+      "severity": "error",
+      "source": "pattern-link",
+      "patternRuleId": "rule:components.content-card-wrapper.background-plate-level-by-platform",
+      "appliesTo": "variant.Position",
+      "checkType": "deterministic",
+      "matchKind": "exact_component_rule",
+      "target": {
+        "component": "web-corp.content-card-wrapper",
+        "layers": [
+          "[D] BackgroundPlate",
+          "[M] BackgroundPlate"
+        ]
+      },
+      "requiredNestedVariantByHost": {
+        "[D] ContentCardWrapper": {
+          "nestedComponent": "[D] BackgroundPlate",
+          "Position": "Level 2 (inner)"
+        },
+        "[M] ContentCardWrapper": {
+          "nestedComponent": "[M] BackgroundPlate",
+          "Position": "Level 1 (outer)"
+        }
+      },
+      "disallowedCustomization": {
+        "designerControlled": false,
+        "reason": "background level is fixed by ContentCardWrapper platform composition"
+      },
+      "ruleText": "Запрещено менять уровень встроенного BackgroundPlate в ContentCardWrapper. В Desktop допускается только Position=Level 2 (inner); в MobileWeb допускается только Position=Level 1 (outer)."
+    },
+    {
+      "ruleId": "component:web-corp.content-card-wrapper.text-style-immutable",
+      "severity": "error",
+      "source": "pattern-link",
+      "patternRuleId": "rule:components.content-card-wrapper.text-style-immutable",
+      "appliesTo": "styles.text",
+      "checkType": "deterministic",
+      "matchKind": "exact_component_rule",
+      "target": {
+        "component": "web-corp.content-card-wrapper",
+        "layers": [
+          "[D] ContentCardWrapper",
+          "[M] ContentCardWrapper",
+          "[D] ContentPresets",
+          "[M] ContentPresets",
+          "🔩 [D] ContentPresets",
+          "🔩 [M] ContentPresets",
+          "ContentCardWrapper",
+          "MiddleContentSlot",
+          "Label",
+          "Text"
+        ]
+      },
+      "requiredStyleSource": {
+        "useComponentBaselineTypography": true,
+        "compareAgainstEffectiveBaseline": true
+      },
+      "disallowedCustomization": {
+        "designerControlled": false,
+        "properties": [
+          "styles.text"
+        ]
+      },
+      "ruleText": "Запрещено менять стиль типографики текстовых элементов внутри ContentCardWrapper. Любое изменение styles.text у заголовков, подзаголовков, дополнительных строк, статусов и пояснений нужно считать нарушением и возвращать к component baseline."
+    },
+    {
       "ruleId": "component:web-corp.content-card-wrapper.left-slot-selection",
       "severity": "warning",
       "source": "pattern-link",
