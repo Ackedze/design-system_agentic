@@ -504,7 +504,8 @@
         "[M][Promo] BackgroundPlate",
         "[M][Promo] Style Level 1",
         "[M][Promo] Style Level 2",
-        "BackgroundPlate"
+        "BackgroundPlate",
+        "BackgroundPlateView"
       ],
       "sourceCatalogPath": "web/components/web-corp/Web _ Corp Components -- BackgroundPlate.json",
       "artifacts": {
@@ -7098,6 +7099,7 @@
     ".Details / Outgoing BubblesStack": "web-corp.сhat",
     "ChatBubbleView": "web-corp.сhat",
     "Сhat [M]": "web-corp.сhat",
-    "💊 HELPERS": "web-corp.helpers"
+    "💊 HELPERS": "web-corp.helpers",
+    "BackgroundPlateView": "web-corp.background-plate"
   }
 }

@@ -12,9 +12,9 @@
       "mobile-web"
     ],
     "source": "path-policy",
-    "updatedAt": "2026-07-04"
+    "updatedAt": "2026-07-08"
   },
-  "summary": "BackgroundPlate — семейство plate, slot и style-level components, которое маппит Position, Type, BackgroundColor и Skeleton variants на layer fills и slot padding.",
+  "summary": "BackgroundPlate — семейство surface-компонентов для рабочих и промо-подложек. Оно связывает Position, Type, BackgroundColor и Skeleton variants с фактическими layer baseline: заливкой, скруглением и slot padding. BackgroundPlateView — кодовый alias этого же семейства, а не отдельный Figma-компонент.",
   "source": {
     "rawCatalogPath": "JSONS/web/components/web-corp/Web _ Corp Components -- BackgroundPlate.json",
     "library": "Web _ Corp Components",
@@ -22,7 +22,8 @@
     "generatedAt": "2026-06-05T16:07:39.725Z",
     "exportVersion": "0.1.0-rest",
     "files": [
-      "BackgroundPlate"
+      "BackgroundPlate",
+      "BackgroundPlateView"
     ]
   },
   "components": [
@@ -314,14 +315,32 @@
     }
   ],
   "criticalBaselines": [
-    "BackgroundPlate wraps Style Level 1 or Style Level 2 depending on Position.",
-    "Style Level components carry the actual background fill baseline through BackgroundColor, Type and Skeleton variants.",
-    "BackgroundPlateSlot exposes slot padding and Type/Skeleton variants; normal slot content is not a customization by itself."
+    "BackgroundPlate выбирает вложенный Style Level 1 или Style Level 2 через Position.",
+    "Style Level хранит фактический baseline поверхности: BackgroundColor, Type, Skeleton, fill и radius.",
+    "BackgroundPlateSlot управляет внутренними slot padding и Type/Skeleton variants. Сам slot content не является кастомизацией.",
+    "BackgroundPlateView в code/private usage маппится на BackgroundPlate и должен использовать те же правила, контракты и pattern links.",
+    "Для desktop рабочей поверхности Level 1 использует radius 16, Level 2 использует radius 12. Promo и mobile variants могут иметь другие baseline из каталога."
   ],
   "agentInstructions": [
-    "Do not infer pattern violations from examples. Use exact rules and exact component contracts only.",
-    "Use component-property facts for variant changes and layer-property facts for styles/layout/paint changes.",
-    "If a nested diff is owned by the host wrapper and actual equals effective baseline, do not report it as designer customization.",
-    "If actual differs from effective baseline, report effectiveBaseline -> actual."
+    "Не выводи нарушение из примера. Используй только exact rules, exact component contracts и явно найденные pattern rules.",
+    "Если во входном отчёте встречается BackgroundPlateView, трактуй его как code/private alias компонента BackgroundPlate, а не как отдельный компонент без правил.",
+    "Изменения variant/property показывай как component-property customizations; изменения fill, stroke, radius, opacity, layout и style показывай как layer-property customizations.",
+    "Если nested diff принадлежит wrapper и actual совпадает с effective baseline, не показывай его как дизайнерскую кастомизацию.",
+    "Если actual отличается от effective baseline, показывай effectiveBaseline -> actual. Не подставляй standalone baseline вложенного Style Level вместо baseline выбранного BackgroundPlate variant.",
+    "Padding у BackgroundPlateSlot может быть осознанной настройкой композиции. Комментируй его как layer customization и проверяй токены Spacing, но не называй ошибкой без точного правила."
+  ],
+  "codeExports": [
+    {
+      "name": "BackgroundPlate",
+      "kind": "react-component-export",
+      "mapsTo": "[D] BackgroundPlate / [M] BackgroundPlate",
+      "usage": "Основной code/private export, который соответствует Figma-компонентам семейства BackgroundPlate."
+    },
+    {
+      "name": "BackgroundPlateView",
+      "kind": "react-view-export",
+      "mapsTo": "BackgroundPlate",
+      "usage": "Кодовая обёртка/представление BackgroundPlate. В Apollo и агентском анализе не является отдельным Figma-компонентом и должна использовать тот же componentKey web-corp.background-plate."
+    }
   ]
 }

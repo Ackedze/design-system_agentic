@@ -12,7 +12,7 @@
       "mobile-web"
     ],
     "source": "path-policy",
-    "updatedAt": "2026-07-06"
+    "updatedAt": "2026-07-08"
   },
   "rules": [
     {
@@ -42,6 +42,32 @@
         ]
       },
       "ruleText": "Изменения variant/property в компонентах семейства BackgroundPlate являются component-property customizations. Показывай их отдельно от производных визуальных изменений layer."
+    },
+    {
+      "ruleId": "component:web-corp.background-plate.background-plate-view-is-alias",
+      "severity": "info",
+      "source": "component-contract",
+      "appliesTo": "component.identity|codeExport.*",
+      "checkType": "deterministic",
+      "matchKind": "exact_component_rule",
+      "target": {
+        "component": "web-corp.background-plate",
+        "codeExports": [
+          "BackgroundPlateView"
+        ],
+        "mapsTo": [
+          "[D] BackgroundPlate",
+          "[M] BackgroundPlate",
+          "[D][Promo] BackgroundPlate",
+          "[M][Promo] BackgroundPlate"
+        ]
+      },
+      "classification": {
+        "reportAsCustomization": false,
+        "doNotTreatAsViolationByDefault": true,
+        "useComponentKey": "web-corp.background-plate"
+      },
+      "ruleText": "BackgroundPlateView — code/private alias семейства BackgroundPlate. Не создавай отдельную рекомендацию “неизвестный компонент”; применяй правила BackgroundPlate, включая effective baseline, reset model, radius и composition rules."
     },
     {
       "ruleId": "component:web-corp.background-plate.layer-properties-use-effective-baseline",

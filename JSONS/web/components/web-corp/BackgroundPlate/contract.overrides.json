@@ -12,7 +12,7 @@
       "mobile-web"
     ],
     "source": "path-policy",
-    "updatedAt": "2026-07-04"
+    "updatedAt": "2026-07-08"
   },
   "component": {
     "name": "BackgroundPlate",
@@ -306,6 +306,24 @@
           ]
         }
       }
+    ],
+    "codeExports": [
+      {
+        "name": "BackgroundPlate",
+        "kind": "react-component-export",
+        "mapsTo": "[D] BackgroundPlate / [M] BackgroundPlate",
+        "usage": "Основной code/private export, который соответствует Figma-компонентам семейства BackgroundPlate."
+      },
+      {
+        "name": "BackgroundPlateView",
+        "kind": "react-view-export",
+        "mapsTo": "BackgroundPlate",
+        "usage": "Кодовая обёртка/представление BackgroundPlate. В Apollo и агентском анализе не является отдельным Figma-компонентом и должна использовать тот же componentKey web-corp.background-plate."
+      }
+    ],
+    "aliases": [
+      "BackgroundPlate",
+      "BackgroundPlateView"
     ]
   },
   "nestedComponentAliases": [
@@ -381,6 +399,6 @@
       "opacity",
       "text.*"
     ],
-    "dependencyPolicy": "Component-property reset и layer-property reset разделены. Layer reset должен использовать effective baseline после nested variant/materialization resolution."
+    "dependencyPolicy": "Component-property reset и layer-property reset разделены. Layer reset должен использовать effective baseline после nested variant/materialization resolution. Для BackgroundPlateView применяй тот же reset model, что и для BackgroundPlate."
   }
 }
