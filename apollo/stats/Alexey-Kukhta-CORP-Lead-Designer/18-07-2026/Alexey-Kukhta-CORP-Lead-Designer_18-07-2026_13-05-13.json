@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "reportId": "apollo-1096330610570928879-1784369113648-8a2len85",
+  "generatedAt": "2026-07-18T10:05:13.648Z",
+  "suggestedFileName": "Alexey-Kukhta-CORP-Lead-Designer_18-07-2026_13-05-13.json",
+  "user": {
+    "id": "1096330610570928879",
+    "name": "Alexey Kukhta / CORP / Lead Designer",
+    "slug": "Alexey-Kukhta-CORP-Lead-Designer"
+  },
+  "plugin": {
+    "name": "Apollo",
+    "version": "0.1.56"
+  },
+  "figma": {
+    "fileKey": null,
+    "fileName": "Виджет рисков в Альфа-Босс",
+    "editorType": "figma"
+  },
+  "scan": {
+    "channel": "Desktop",
+    "startedAt": "2026-07-18T10:05:13.612Z",
+    "finishedAt": "2026-07-18T10:05:13.648Z",
+    "durationMs": 36,
+    "selection": [
+      {
+        "nodeId": "129:27329",
+        "name": "Холдинг / все компании-нерезиденты",
+        "nodeType": "FRAME",
+        "path": "Виджет / Планшет / Холдинг / все компании-нерезиденты",
+        "componentKey": null
+      }
+    ],
+    "settings": {
+      "shellAuditEnabled": false
+    }
+  },
+  "summary": {
+    "scannedComponents": 2,
+    "problemOccurrenceCount": 2,
+    "categoryCounts": {
+      "deprecatedComponents": 0,
+      "deprecatedStyles": 0,
+      "customStyles": 0,
+      "updates": 0,
+      "customizations": 0,
+      "localComponents": 1,
+      "detachedComponents": 0,
+      "presets": 0,
+      "technicalComponents": 0,
+      "currentComponents": 1,
+      "wrongChannel": 0,
+      "themization": 1
+    }
+  },
+  "categories": {
+    "deprecatedComponents": {
+      "count": 0,
+      "items": []
+    },
+    "deprecatedStyles": {
+      "count": 0,
+      "items": []
+    },
+    "customStyles": {
+      "count": 0,
+      "items": []
+    },
+    "updates": {
+      "count": 0,
+      "items": []
+    },
+    "customizations": {
+      "count": 0,
+      "items": []
+    },
+    "localComponents": {
+      "count": 1,
+      "items": [
+        {
+          "node": {
+            "id": "129:27330",
+            "name": "768_RiskWidget",
+            "type": "INSTANCE",
+            "pageName": "     Виджет индикатора рисков",
+            "path": "Виджет / Планшет / Холдинг / все компании-нерезиденты / 768_RiskWidget",
+            "visible": true
+          },
+          "component": {
+            "type": "component",
+            "name": "768_RiskWidget",
+            "key": "3258de24e9476977e756967563b5d352566376c1",
+            "id": null,
+            "library": null,
+            "sourceFile": null
+          },
+          "variant": null,
+          "comparisonIssues": []
+        }
+      ]
+    },
+    "detachedComponents": {
+      "count": 0,
+      "items": []
+    },
+    "presets": {
+      "count": 0,
+      "items": []
+    },
+    "technicalComponents": {
+      "count": 0,
+      "items": []
+    },
+    "currentComponents": {
+      "count": 1,
+      "items": [
+        {
+          "node": {
+            "id": "I129:27330;129:24966",
+            "name": "[D] Style Level 1",
+            "type": "INSTANCE",
+            "pageName": "     Виджет индикатора рисков",
+            "path": "Виджет / Планшет / Холдинг / все компании-нерезиденты / 768_RiskWidget / [D] BackgroundPlate / [D] Style Level 1",
+            "visible": true
+          },
+          "component": {
+            "type": "component",
+            "name": "[D] Style Level 1",
+            "key": "4f38c23d743bed97de0b14c39b4d4eaf5b511a2a",
+            "id": null,
+            "library": "Web _ Corp Components",
+            "sourceFile": "web/components/web-corp/Web _ Corp Components -- BackgroundPlate.json"
+          },
+          "variant": {
+            "type": "component-variant",
+            "name": "BackgroundColor=base-bg-alt (gray), Type=Primary, Skeleton=False",
+            "key": "4f38c23d743bed97de0b14c39b4d4eaf5b511a2a",
+            "id": null,
+            "library": "Web _ Corp Components",
+            "sourceFile": "web/components/web-corp/Web _ Corp Components -- BackgroundPlate.json"
+          },
+          "comparisonIssues": []
+        }
+      ]
+    },
+    "wrongChannel": {
+      "count": 0,
+      "items": []
+    },
+    "themization": {
+      "count": 1,
+      "items": [
+        {
+          "node": {
+            "id": "129:27329",
+            "name": "Страница:      Виджет индикатора рисков",
+            "type": "PAGE",
+            "pageName": "     Виджет индикатора рисков",
+            "path": "     Виджет индикатора рисков",
+            "visible": true
+          },
+          "kind": "missingThemeMode",
+          "recommendation": "Смени темизацию на Corp",
+          "component": null
+        }
+      ]
+    }
+  }
+}
