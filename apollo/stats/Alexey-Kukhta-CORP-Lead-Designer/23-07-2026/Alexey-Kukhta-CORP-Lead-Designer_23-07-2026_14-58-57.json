@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 1,
+  "reportId": "apollo-1096330610570928879-1784807937141-ew2u7zyq",
+  "generatedAt": "2026-07-23T11:58:57.141Z",
+  "suggestedFileName": "Alexey-Kukhta-CORP-Lead-Designer_23-07-2026_14-58-57.json",
+  "user": {
+    "id": "1096330610570928879",
+    "name": "Alexey Kukhta / CORP / Lead Designer",
+    "slug": "Alexey-Kukhta-CORP-Lead-Designer"
+  },
+  "plugin": {
+    "name": "Apollo",
+    "version": "0.1.62"
+  },
+  "figma": {
+    "fileKey": null,
+    "fileName": "❇️ Мастерская :: AI",
+    "editorType": "figma"
+  },
+  "scan": {
+    "channel": "Desktop",
+    "startedAt": "2026-07-23T11:58:51.504Z",
+    "finishedAt": "2026-07-23T11:58:57.141Z",
+    "durationMs": 5637,
+    "selection": [
+      {
+        "nodeId": "11110:41405",
+        "name": "Onboarding Hint",
+        "nodeType": "INSTANCE",
+        "path": "Onboarding Hint",
+        "componentKey": "fe87c25d53e2914be45ed3e6f852502fe400eb08"
+      }
+    ],
+    "settings": {
+      "shellAuditEnabled": false
+    }
+  },
+  "summary": {
+    "scannedComponents": 6,
+    "problemOccurrenceCount": 1,
+    "categoryCounts": {
+      "deprecatedComponents": 0,
+      "deprecatedStyles": 0,
+      "customStyles": 0,
+      "updates": 0,
+      "customizations": 0,
+      "localComponents": 0,
+      "detachedComponents": 0,
+      "presets": 0,
+      "technicalComponents": 0,
+      "currentComponents": 6,
+      "wrongChannel": 0,
+      "themization": 1
+    }
+  },
+  "categories": {
+    "deprecatedComponents": {
+      "count": 0,
+      "items": []
+    },
+    "deprecatedStyles": {
+      "count": 0,
+      "items": []
+    },
+    "customStyles": {
+      "count": 0,
+      "items": []
+    },
+    "updates": {
+      "count": 0,
+      "items": []
+    },
+    "customizations": {
+      "count": 0,
+      "items": []
+    },
+    "localComponents": {
+      "count": 0,
+      "items": []
+    },
+    "detachedComponents": {
+      "count": 0,
+      "items": []
+    },
+    "presets": {
+      "count": 0,
+      "items": []
+    },
+    "technicalComponents": {
+      "count": 0,
+      "items": []
+    },
+    "currentComponents": {
+      "count": 6,
+      "items": [
+        {
+          "node": {
+            "id": "11110:41405",
+            "name": "Onboarding Hint",
+            "type": "INSTANCE",
+            "pageName": "     Лаборатория",
+            "path": "Onboarding Hint",
+            "visible": true
+          },
+          "component": {
+            "type": "component",
+            "name": "Onboarding Hint",
+            "key": "fe87c25d53e2914be45ed3e6f852502fe400eb08",
+            "id": null,
+            "library": "Web _ Corp Components",
+            "sourceFile": "web/components/web-corp/Web _ Corp Components -- Onboarding Hint [D].json"
+          },
+          "variant": {
+            "type": "component-variant",
+            "name": "Tail Direction=←, Tail Position=Center",
+            "key": "fe87c25d53e2914be45ed3e6f852502fe400eb08",
+            "id": null,
+            "library": "Web _ Corp Components",
+            "sourceFile": "web/components/web-corp/Web _ Corp Components -- Onboarding Hint [D].json"
+          },
+          "comparisonIssues": []
+        },
+        {
+          "node": {
+            "id": "I11110:41405;67467:50175",
+            "name": "Tail",
+            "type": "INSTANCE",
+            "pageName": "     Лаборатория",
+            "path": "Onboarding Hint / Tail / Tail",
+            "visible": true
+          },
+          "component": {
+            "type": "component",
+            "name": "Tail",
+            "key": "4151c027d57f5d59f0ec6761f89a6e004912dfce",
+            "id": null,
+            "library": "Web _ Corp Components",
+            "sourceFile": "web/components/web-corp/Web _ Corp Components -- Onboarding Hint [D].json"
+          },
+          "variant": {
+            "type": "component-variant",
+            "name": "Direction=←",
+            "key": "4151c027d57f5d59f0ec6761f89a6e004912dfce",
+            "id": null,
+            "library": "Web _ Corp Components",
+            "sourceFile": "web/components/web-corp/Web _ Corp Components -- Onboarding Hint [D].json"
+          },
+          "comparisonIssues": []
+        },
+        {
+          "node": {
+            "id": "I11110:41405;67467:50179",
+            "name": "[D] Button",
+            "type": "INSTANCE",
+            "pageName": "     Лаборатория",
+            "path": "Onboarding Hint / Content / Content / [D] Button",
+            "visible": true
+          },
+          "component": {
+            "type": "component",
+            "name": "[D] Button",
+            "key": "68b4331cfd13fd0258913a2597a4f3e2fef3c54f",
+            "id": null,
+            "library": "Web _ Core",
+            "sourceFile": "web/components/web-core/core/Web _ Core -- Button.json"
+          },
+          "variant": {
+            "type": "component-variant",
+            "name": "View=Text, Size=32, Shape=Rectangular, SingleIcon=False, DisabledState=False",
+            "key": "68b4331cfd13fd0258913a2597a4f3e2fef3c54f",
+            "id": null,
+            "library": "Web _ Core",
+            "sourceFile": "web/components/web-core/core/Web _ Core -- Button.json"
+          },
+          "comparisonIssues": []
+        },
+        {
+          "node": {
+            "id": "I11110:41405;67467:50180",
+            "name": "Cross",
+            "type": "INSTANCE",
+            "pageName": "     Лаборатория",
+            "path": "Onboarding Hint / Content / Cross",
+            "visible": true
+          },
+          "component": {
+            "type": "component",
+            "name": "[D] IconButton_Inverted",
+            "key": "120229c6e23bf8785733b2729d48deb5cb1df8e5",
+            "id": null,
+            "library": "Web _ Core",
+            "sourceFile": "web/components/web-core/core/Web _ Core -- IconButton.json"
+          },
+          "variant": {
+            "type": "component-variant",
+            "name": "Size=24, View=Primary, TransparentBg=False",
+            "key": "120229c6e23bf8785733b2729d48deb5cb1df8e5",
+            "id": null,
+            "library": "Web _ Core",
+            "sourceFile": "web/components/web-core/core/Web _ Core -- IconButton.json"
+          },
+          "comparisonIssues": []
+        },
+        {
+          "node": {
+            "id": "I11110:41405;67467:50180;603:60612",
+            "name": "Icon",
+            "type": "INSTANCE",
+            "pageName": "     Лаборатория",
+            "path": "Onboarding Hint / Content / Cross / Icon",
+            "visible": true
+          },
+          "component": {
+            "type": "component",
+            "name": "🔩 Icon",
+            "key": "560f00b30e2f39e79e248febef9cc5c35c9449ef",
+            "id": null,
+            "library": "Web _ Core",
+            "sourceFile": "web/components/web-core/core/Web _ Core -- IconButton.json"
+          },
+          "variant": {
+            "type": "component-variant",
+            "name": "Type=icon-20",
+            "key": "560f00b30e2f39e79e248febef9cc5c35c9449ef",
+            "id": null,
+            "library": "Web _ Core",
+            "sourceFile": "web/components/web-core/core/Web _ Core -- IconButton.json"
+          },
+          "comparisonIssues": []
+        },
+        {
+          "node": {
+            "id": "I11110:41405;67467:50180;603:60612;119604:1882",
+            "name": "cross",
+            "type": "INSTANCE",
+            "pageName": "     Лаборатория",
+            "path": "Onboarding Hint / Content / Cross / Icon / Fixer / PaintMe / cross",
+            "visible": true
+          },
+          "component": {
+            "type": "component",
+            "name": "cross",
+            "key": "26ce6c976206d243da64f26abeb192e447a7ec4b",
+            "id": null,
+            "library": "Icons",
+            "sourceFile": "icons/Icons -- glyph-26.json"
+          },
+          "variant": {
+            "type": "component-variant",
+            "name": "Size=20, Style=Thinline, Color=False",
+            "key": "26ce6c976206d243da64f26abeb192e447a7ec4b",
+            "id": null,
+            "library": "Icons",
+            "sourceFile": "icons/Icons -- glyph-26.json"
+          },
+          "comparisonIssues": []
+        }
+      ]
+    },
+    "wrongChannel": {
+      "count": 0,
+      "items": []
+    },
+    "themization": {
+      "count": 1,
+      "items": [
+        {
+          "node": {
+            "id": "11110:41405",
+            "name": "Страница:      Лаборатория",
+            "type": "PAGE",
+            "pageName": "     Лаборатория",
+            "path": "     Лаборатория",
+            "visible": true
+          },
+          "kind": "missingThemeMode",
+          "recommendation": "Смени темизацию на Corp",
+          "component": null
+        }
+      ]
+    }
+  }
+}
