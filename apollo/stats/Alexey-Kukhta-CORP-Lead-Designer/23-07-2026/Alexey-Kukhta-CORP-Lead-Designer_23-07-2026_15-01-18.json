@@ -1,0 +1,448 @@
+{
+  "schemaVersion": 1,
+  "reportId": "apollo-1096330610570928879-1784808078144-naybmq4b",
+  "generatedAt": "2026-07-23T12:01:18.144Z",
+  "suggestedFileName": "Alexey-Kukhta-CORP-Lead-Designer_23-07-2026_15-01-18.json",
+  "user": {
+    "id": "1096330610570928879",
+    "name": "Alexey Kukhta / CORP / Lead Designer",
+    "slug": "Alexey-Kukhta-CORP-Lead-Designer"
+  },
+  "plugin": {
+    "name": "Apollo",
+    "version": "0.1.62"
+  },
+  "figma": {
+    "fileKey": null,
+    "fileName": "❇️ Мастерская :: AI",
+    "editorType": "figma"
+  },
+  "scan": {
+    "channel": "Desktop",
+    "startedAt": "2026-07-23T12:01:18.054Z",
+    "finishedAt": "2026-07-23T12:01:18.144Z",
+    "durationMs": 90,
+    "selection": [
+      {
+        "nodeId": "11110:41405",
+        "name": "Onboarding Hint",
+        "nodeType": "INSTANCE",
+        "path": "Onboarding Hint",
+        "componentKey": "fe87c25d53e2914be45ed3e6f852502fe400eb08"
+      }
+    ],
+    "settings": {
+      "shellAuditEnabled": false
+    }
+  },
+  "summary": {
+    "scannedComponents": 6,
+    "problemOccurrenceCount": 2,
+    "categoryCounts": {
+      "deprecatedComponents": 0,
+      "deprecatedStyles": 0,
+      "customStyles": 0,
+      "updates": 0,
+      "customizations": 1,
+      "localComponents": 0,
+      "detachedComponents": 0,
+      "presets": 0,
+      "technicalComponents": 0,
+      "currentComponents": 6,
+      "wrongChannel": 0,
+      "themization": 1
+    }
+  },
+  "categories": {
+    "deprecatedComponents": {
+      "count": 0,
+      "items": []
+    },
+    "deprecatedStyles": {
+      "count": 0,
+      "items": []
+    },
+    "customStyles": {
+      "count": 0,
+      "items": []
+    },
+    "updates": {
+      "count": 0,
+      "items": []
+    },
+    "customizations": {
+      "count": 1,
+      "items": [
+        {
+          "node": {
+            "id": "11110:41405",
+            "name": "Onboarding Hint",
+            "type": "INSTANCE",
+            "pageName": "     Лаборатория",
+            "path": "Onboarding Hint",
+            "visible": true
+          },
+          "component": {
+            "type": "component",
+            "name": "Onboarding Hint",
+            "key": "fe87c25d53e2914be45ed3e6f852502fe400eb08",
+            "id": null,
+            "library": "Web _ Corp Components",
+            "sourceFile": "web/components/web-corp/Web _ Corp Components -- Onboarding Hint [D].json"
+          },
+          "variant": {
+            "type": "component-variant",
+            "name": "Tail Direction=←, Tail Position=Center",
+            "key": "fe87c25d53e2914be45ed3e6f852502fe400eb08",
+            "id": null,
+            "library": "Web _ Corp Components",
+            "sourceFile": "web/components/web-corp/Web _ Corp Components -- Onboarding Hint [D].json"
+          },
+          "comparisonIssues": [
+            "Нет данных для заливка в снапшоте для «Tail Direction=←, Tail Position=Center / Content / Content / [D] Button»"
+          ],
+          "changes": [
+            {
+              "node": {
+                "id": "I11110:41405;67467:50179",
+                "name": "[D] Button",
+                "type": null,
+                "pageName": "     Лаборатория",
+                "path": "Tail Direction=←, Tail Position=Center / Content / Content / [D] Button",
+                "visible": true
+              },
+              "kind": "other",
+              "property": "variant.View",
+              "message": "view: text → transparent",
+              "reference": {
+                "value": "Text",
+                "resource": null,
+                "binding": null
+              },
+              "actual": {
+                "value": "Transparent",
+                "resource": null,
+                "binding": null
+              },
+              "bindingStatus": null,
+              "variableMode": null,
+              "signature": "component:fe87c25d53e2914be45ed3e6f852502fe400eb08:other:variant.View:Text->Transparent",
+              "context": {
+                "actualComponentKey": "0973a407e778adad7ba475e4c023e3947409a768",
+                "referenceComponentKey": "f9979d6cc8598aec25f721e0a45b7eef2eeb0088",
+                "referenceOrigin": "host",
+                "actualNestedOwnerComponentKey": "fe87c25d53e2914be45ed3e6f852502fe400eb08",
+                "actualNestedOwnerPath": "Tail Direction=←, Tail Position=Center",
+                "actualNestedOwnerRelativePath": "Content / Content / [D] Button",
+                "nestedOwnerComponentKey": "f9979d6cc8598aec25f721e0a45b7eef2eeb0088",
+                "nestedOwnerComponentRole": null,
+                "nestedOwnerPath": "Tail Direction=←, Tail Position=Center / Content / Content / [D] Button",
+                "nestedOwnerRelativePath": "",
+                "actualVariantProperties": {
+                  "View": "Transparent",
+                  "Size": "32",
+                  "Shape": "Rectangular",
+                  "SingleIcon": "False",
+                  "DisabledState": "False"
+                },
+                "referenceVariantProperties": {
+                  "DisabledState": "False",
+                  "Shape": "Rectangular",
+                  "SingleIcon": "False",
+                  "Size": "32",
+                  "View": "Text"
+                },
+                "surfaceContext": {
+                  "kind": "unknown",
+                  "source": "unresolved",
+                  "nodeId": null,
+                  "nodeName": null,
+                  "tokenId": null,
+                  "tokenName": null,
+                  "color": null
+                }
+              },
+              "componentRules": [
+                {
+                  "ruleId": "component:web-core.button.component-properties-are-first-class",
+                  "severity": "info",
+                  "source": "component-contract",
+                  "ruleKind": null,
+                  "severityScope": null,
+                  "appliesTo": "variant.*",
+                  "checkType": "deterministic",
+                  "matchKind": "exact_component_rule",
+                  "changeScope": null,
+                  "ruleText": "Изменения variant/property в этом семействе компонентов являются component-property customizations. Показывай их отдельно от производных визуальных изменений layer.",
+                  "remediation": null
+                },
+                {
+                  "ruleId": "component:web-core.button.variant-state-is-component-property",
+                  "severity": "info",
+                  "source": "component-contract",
+                  "ruleKind": null,
+                  "severityScope": null,
+                  "appliesTo": "variant.*",
+                  "checkType": "deterministic",
+                  "matchKind": null,
+                  "changeScope": null,
+                  "ruleText": "Изменения View, Size, Shape, SingleIcon и DisabledState являются component property changes и должны показываться как самостоятельные customizations.",
+                  "remediation": null
+                },
+                {
+                  "ruleId": "component:web-core.button.desktop-safe-variants",
+                  "severity": "error",
+                  "source": "pattern-link",
+                  "ruleKind": null,
+                  "severityScope": null,
+                  "appliesTo": "variant.View|variant.Size|variant.Shape",
+                  "checkType": "deterministic",
+                  "matchKind": null,
+                  "changeScope": null,
+                  "ruleText": "В desktop нельзя использовать Button variants и параметры, запрещённые button pattern.",
+                  "remediation": null
+                },
+                {
+                  "ruleId": "component:web-corp.onboarding-hint.button-configuration-is-fixed",
+                  "severity": "error",
+                  "source": "component-contract",
+                  "ruleKind": "design-rule",
+                  "severityScope": null,
+                  "appliesTo": "variant.Size|variant.View|variant.Shape|variant.SingleIcon|variant.DisabledState|component.visibility",
+                  "checkType": "deterministic",
+                  "matchKind": "exact_component_rule",
+                  "changeScope": null,
+                  "ruleText": "Встроенная кнопка обязательна и использует Size=32, View=Text, Shape=Rectangular, SingleIcon=False, DisabledState=False, без LeftAddon и RightAddon. Её конфигурацию нельзя менять вручную.",
+                  "remediation": null
+                }
+              ],
+              "presentation": {
+                "scope": "slot-property",
+                "groupTitle": "Параметры слота",
+                "displayName": null,
+                "priority": 15,
+                "resetAction": "reset-component-properties",
+                "effectiveBaseline": null
+              },
+              "assessment": {
+                "verdict": "violation",
+                "source": "component-contract",
+                "reasonCode": "component-contract-violation",
+                "ruleId": "component:web-corp.onboarding-hint.button-configuration-is-fixed",
+                "message": "Встроенная кнопка обязательна и использует Size=32, View=Text, Shape=Rectangular, SingleIcon=False, DisabledState=False, без LeftAddon и RightAddon. Её конфигурацию нельзя менять вручную.",
+                "remediation": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "localComponents": {
+      "count": 0,
+      "items": []
+    },
+    "detachedComponents": {
+      "count": 0,
+      "items": []
+    },
+    "presets": {
+      "count": 0,
+      "items": []
+    },
+    "technicalComponents": {
+      "count": 0,
+      "items": []
+    },
+    "currentComponents": {
+      "count": 6,
+      "items": [
+        {
+          "node": {
+            "id": "11110:41405",
+            "name": "Onboarding Hint",
+            "type": "INSTANCE",
+            "pageName": "     Лаборатория",
+            "path": "Onboarding Hint",
+            "visible": true
+          },
+          "component": {
+            "type": "component",
+            "name": "Onboarding Hint",
+            "key": "fe87c25d53e2914be45ed3e6f852502fe400eb08",
+            "id": null,
+            "library": "Web _ Corp Components",
+            "sourceFile": "web/components/web-corp/Web _ Corp Components -- Onboarding Hint [D].json"
+          },
+          "variant": {
+            "type": "component-variant",
+            "name": "Tail Direction=←, Tail Position=Center",
+            "key": "fe87c25d53e2914be45ed3e6f852502fe400eb08",
+            "id": null,
+            "library": "Web _ Corp Components",
+            "sourceFile": "web/components/web-corp/Web _ Corp Components -- Onboarding Hint [D].json"
+          },
+          "comparisonIssues": [
+            "Нет данных для заливка в снапшоте для «Tail Direction=←, Tail Position=Center / Content / Content / [D] Button»"
+          ]
+        },
+        {
+          "node": {
+            "id": "I11110:41405;67467:50175",
+            "name": "Tail",
+            "type": "INSTANCE",
+            "pageName": "     Лаборатория",
+            "path": "Onboarding Hint / Tail / Tail",
+            "visible": true
+          },
+          "component": {
+            "type": "component",
+            "name": "Tail",
+            "key": "4151c027d57f5d59f0ec6761f89a6e004912dfce",
+            "id": null,
+            "library": "Web _ Corp Components",
+            "sourceFile": "web/components/web-corp/Web _ Corp Components -- Onboarding Hint [D].json"
+          },
+          "variant": {
+            "type": "component-variant",
+            "name": "Direction=←",
+            "key": "4151c027d57f5d59f0ec6761f89a6e004912dfce",
+            "id": null,
+            "library": "Web _ Corp Components",
+            "sourceFile": "web/components/web-corp/Web _ Corp Components -- Onboarding Hint [D].json"
+          },
+          "comparisonIssues": []
+        },
+        {
+          "node": {
+            "id": "I11110:41405;67467:50179",
+            "name": "[D] Button",
+            "type": "INSTANCE",
+            "pageName": "     Лаборатория",
+            "path": "Onboarding Hint / Content / Content / [D] Button",
+            "visible": true
+          },
+          "component": {
+            "type": "component",
+            "name": "[D] Button",
+            "key": "0973a407e778adad7ba475e4c023e3947409a768",
+            "id": null,
+            "library": "Web _ Core",
+            "sourceFile": "web/components/web-core/core/Web _ Core -- Button.json"
+          },
+          "variant": {
+            "type": "component-variant",
+            "name": "View=Transparent, Size=32, Shape=Rectangular, SingleIcon=False, DisabledState=False",
+            "key": "0973a407e778adad7ba475e4c023e3947409a768",
+            "id": null,
+            "library": "Web _ Core",
+            "sourceFile": "web/components/web-core/core/Web _ Core -- Button.json"
+          },
+          "comparisonIssues": []
+        },
+        {
+          "node": {
+            "id": "I11110:41405;67467:50180",
+            "name": "Cross",
+            "type": "INSTANCE",
+            "pageName": "     Лаборатория",
+            "path": "Onboarding Hint / Content / Cross",
+            "visible": true
+          },
+          "component": {
+            "type": "component",
+            "name": "[D] IconButton_Inverted",
+            "key": "120229c6e23bf8785733b2729d48deb5cb1df8e5",
+            "id": null,
+            "library": "Web _ Core",
+            "sourceFile": "web/components/web-core/core/Web _ Core -- IconButton.json"
+          },
+          "variant": {
+            "type": "component-variant",
+            "name": "Size=24, View=Primary, TransparentBg=False",
+            "key": "120229c6e23bf8785733b2729d48deb5cb1df8e5",
+            "id": null,
+            "library": "Web _ Core",
+            "sourceFile": "web/components/web-core/core/Web _ Core -- IconButton.json"
+          },
+          "comparisonIssues": []
+        },
+        {
+          "node": {
+            "id": "I11110:41405;67467:50180;603:60612",
+            "name": "Icon",
+            "type": "INSTANCE",
+            "pageName": "     Лаборатория",
+            "path": "Onboarding Hint / Content / Cross / Icon",
+            "visible": true
+          },
+          "component": {
+            "type": "component",
+            "name": "🔩 Icon",
+            "key": "560f00b30e2f39e79e248febef9cc5c35c9449ef",
+            "id": null,
+            "library": "Web _ Core",
+            "sourceFile": "web/components/web-core/core/Web _ Core -- IconButton.json"
+          },
+          "variant": {
+            "type": "component-variant",
+            "name": "Type=icon-20",
+            "key": "560f00b30e2f39e79e248febef9cc5c35c9449ef",
+            "id": null,
+            "library": "Web _ Core",
+            "sourceFile": "web/components/web-core/core/Web _ Core -- IconButton.json"
+          },
+          "comparisonIssues": []
+        },
+        {
+          "node": {
+            "id": "I11110:41405;67467:50180;603:60612;119604:1882",
+            "name": "diamonds",
+            "type": "INSTANCE",
+            "pageName": "     Лаборатория",
+            "path": "Onboarding Hint / Content / Cross / Icon / Fixer / PaintMe / diamonds",
+            "visible": true
+          },
+          "component": {
+            "type": "component",
+            "name": "diamonds",
+            "key": "662befc259523f9d93253d27e7c4ab0859aec9d1",
+            "id": null,
+            "library": "Icons",
+            "sourceFile": "icons/Icons -- glyph-26.json"
+          },
+          "variant": {
+            "type": "component-variant",
+            "name": "Size=20, Style=Default, Color=False",
+            "key": "662befc259523f9d93253d27e7c4ab0859aec9d1",
+            "id": null,
+            "library": "Icons",
+            "sourceFile": "icons/Icons -- glyph-26.json"
+          },
+          "comparisonIssues": []
+        }
+      ]
+    },
+    "wrongChannel": {
+      "count": 0,
+      "items": []
+    },
+    "themization": {
+      "count": 1,
+      "items": [
+        {
+          "node": {
+            "id": "11110:41405",
+            "name": "Страница:      Лаборатория",
+            "type": "PAGE",
+            "pageName": "     Лаборатория",
+            "path": "     Лаборатория",
+            "visible": true
+          },
+          "kind": "missingThemeMode",
+          "recommendation": "Смени темизацию на Corp",
+          "component": null
+        }
+      ]
+    }
+  }
+}
